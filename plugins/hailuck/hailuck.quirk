@@ -1,0 +1,18 @@
+# bootloader
+
+[DeviceInstanceId=USB\VID_0603&PID_1020]
+Plugin = hailuck
+Flags = is-bootloader
+
+[DeviceInstanceId=USB\VID_258A&PID_001E]
+Plugin = hailuck
+GType = FuHaiLuckKbdDevice
+CounterpartGuid = USB\VID_0603&PID_1020
+[DeviceInstanceId=USB\VID_258A&PID_001F]
+Plugin = hailuck
+GType = FuHaiLuckKbdDevice
+CounterpartGuid = USB\VID_0603&PID_1020
+[DeviceInstanceId=USB\VID_258A&PID_000D]
+Plugin = hailuck
+GType = FuHaiLuckKbdDevice
+CounterpartGuid = USB\VID_0603&PID_1020
